@@ -12,5 +12,15 @@
     private String indicatorColor = "#FF4FCAA4";       //滑块颜色
     }
   ```
-  
+  dependencyResolutionManagement {
+  		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+  		repositories {
+  			mavenCentral()
+  			maven { url 'https://jitpack.io' }
+  		}
+  	}
+
+  dependencies {
+  	        implementation 'com.github.Alex861:FlycoTabLayout:1.0.0'
+  	}
   ![image](https://github.com/ldlywt/FlycoTabLayout_AndroidX/raw/master/Image/DiyTabLayout.gif)
